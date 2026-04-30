@@ -128,7 +128,7 @@ const Index = () => {
               O Protocolo OCI é <em className="text-gradient-gold">a resposta</em> definitiva.
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Chega de terapias intermináveis e soluções paliativas. O <strong className="text-primary">PROTOCOLO OCI</strong> é um guia direto, prático e transformador de <strong>8 passos</strong> que te leva pela mão para arrancar a raiz das suas feridas emocionais.
+              Chega de terapias intermináveis e soluções paliativas. O <strong className="text-primary">PROTOCOLO OCI</strong> é um guia direto, prático e transformador de <strong>7 passos</strong> que te leva pela mão para arrancar a raiz das suas feridas emocionais.
             </p>
           </div>
 
