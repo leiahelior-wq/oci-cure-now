@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Card } from "@/components/ui/card";
 import { Sparkles, Heart, Coins, Crown, Flame, Check, Star, Quote, Clock, ShieldCheck, ArrowRight } from "lucide-react";
-import ebookHero from "@/assets/ebook-hero.jpg";
+import ebookHero from "@/assets/ebook-hero.png";
 import logoOci from "@/assets/logo-oci.png";
 
 const Index = () => {
