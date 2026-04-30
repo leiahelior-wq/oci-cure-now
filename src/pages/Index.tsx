@@ -5,9 +5,11 @@ import { Sparkles, Heart, Coins, Crown, Flame, Check, Star, Quote, Clock, Shield
 import ebookHero from "@/assets/ebook-hero.png";
 import logoOci from "@/assets/logo-oci.png";
 
+const CHECKOUT_URL = "https://pay.kiwify.com.br/BucM9vK";
+
 const Index = () => {
   const scrollToCheckout = () => {
-    document.getElementById("oferta")?.scrollIntoView({ behavior: "smooth" });
+    window.open(CHECKOUT_URL, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -126,7 +128,7 @@ const Index = () => {
               O Protocolo OCI é <em className="text-gradient-gold">a resposta</em> definitiva.
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Chega de terapias intermináveis e soluções paliativas. O <strong className="text-primary">PROTOCOLO OCI</strong> é um guia direto, prático e transformador de <strong>8 passos</strong> que te leva pela mão para arrancar a raiz das suas feridas emocionais.
+              Chega de terapias intermináveis e soluções paliativas. O <strong className="text-primary">PROTOCOLO OCI</strong> é um guia direto, prático e transformador de <strong>7 passos</strong> que te leva pela mão para arrancar a raiz das suas feridas emocionais.
             </p>
           </div>
 
@@ -162,7 +164,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <span className="text-sm font-bold uppercase tracking-[0.3em] text-gold mb-4 block">O Caminho Sem Volta</span>
             <h2 className="font-display text-4xl md:text-6xl font-semibold text-primary-foreground leading-tight mb-6">
-              Os <span className="text-gradient-gold">8 Passos</span> do Protocolo OCI
+              Os <span className="text-gradient-gold">7 Passos</span> do Protocolo OCI
             </h2>
             <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
               Cada página é um passo acionável. Você não vai apenas ler — você vai <em>agir</em> e <em>transformar</em>.
@@ -177,8 +179,7 @@ const Index = () => {
               { n: "04", t: "Sua Sombra Revelada", d: "Encare aquilo que você se recusou a ver." },
               { n: "05", t: "Seja a Mãe e o Pai que Você Precisou", d: "Cure sua criança interior de uma vez por todas." },
               { n: "06", t: "O Perdão que Liberta", d: "Solte as amarras do passado e respire de novo." },
-              { n: "07", t: "Acreditar em Algo Maior", d: "Conecte-se com sua força superior." },
-              { n: "08", t: "Viva Obcecada Pela Sua Cura", d: "Transforme tudo que você aprendeu em sua nova realidade." },
+              { n: "07", t: "Acreditar em Algo Maior", d: "Conecte-se com sua força superior e viva obcecada pela sua cura." },
             ].map((p) => (
               <div key={p.n} className="group flex items-center gap-6 p-6 rounded-2xl bg-primary-foreground/5 backdrop-blur-sm border border-primary-foreground/10 hover:bg-primary-foreground/10 hover:border-gold/40 transition-all duration-300">
                 <div className="font-display text-5xl md:text-6xl font-semibold text-gradient-gold w-20 flex-shrink-0">{p.n}</div>
@@ -264,7 +265,7 @@ const Index = () => {
 
             <ul className="space-y-3 mb-8 max-w-md mx-auto">
               {[
-                "8 passos práticos e acionáveis",
+                "7 passos práticos e acionáveis",
                 "Mapa completo das 5 Feridas Emocionais",
                 "Acesso imediato após a compra",
                 "Compatível com celular, tablet e computador",
@@ -289,7 +290,7 @@ const Index = () => {
               <p className="text-muted-foreground">à vista · ou 5x de R$ 10,40</p>
             </div>
 
-            <Button variant="cta" size="hero" className="w-full">
+            <Button variant="cta" size="hero" className="w-full" onClick={scrollToCheckout}>
               Sim! Eu Quero Minha Liberdade <ArrowRight className="!size-6" />
             </Button>
 
