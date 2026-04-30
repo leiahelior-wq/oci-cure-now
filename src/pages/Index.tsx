@@ -164,7 +164,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <span className="text-sm font-bold uppercase tracking-[0.3em] text-gold mb-4 block">O Caminho Sem Volta</span>
             <h2 className="font-display text-4xl md:text-6xl font-semibold text-primary-foreground leading-tight mb-6">
-              Os <span className="text-gradient-gold">8 Passos</span> do Protocolo OCI
+              Os <span className="text-gradient-gold">7 Passos</span> do Protocolo OCI
             </h2>
             <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
               Cada página é um passo acionável. Você não vai apenas ler — você vai <em>agir</em> e <em>transformar</em>.
