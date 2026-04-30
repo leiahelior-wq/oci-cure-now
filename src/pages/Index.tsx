@@ -3,6 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Card } from "@/components/ui/card";
 import { Sparkles, Heart, Coins, Crown, Flame, Check, Star, Quote, Clock, ShieldCheck, ArrowRight } from "lucide-react";
 import ebookHero from "@/assets/ebook-hero.jpg";
+import logoOci from "@/assets/logo-oci.png";
 
 const Index = () => {
   const scrollToCheckout = () => {
@@ -15,9 +16,9 @@ const Index = () => {
       <header className="relative bg-gradient-hero overflow-hidden">
         <div className="absolute inset-0 bg-gradient-radial pointer-events-none" />
         <nav className="relative z-10 container mx-auto px-6 py-6 flex items-center justify-between">
-          <div className="font-display text-2xl font-semibold text-primary tracking-tight">
-            PROTOCOLO <span className="text-gradient-gold">OCI</span>
-          </div>
+          <a href="#" className="flex items-center" aria-label="Protocolo OCI">
+            <img src={logoOci} alt="Protocolo OCI - Seja Obcecada Pela Sua Cura Interior" width={160} height={64} className="h-14 w-auto" />
+          </a>
           <Button variant="cta" size="lg" onClick={scrollToCheckout} className="hidden sm:inline-flex">
             Quero Minha Cura <ArrowRight />
           </Button>
@@ -363,8 +364,8 @@ const Index = () => {
       {/* ============ FOOTER ============ */}
       <footer className="bg-primary text-primary-foreground py-12">
         <div className="container mx-auto px-6 text-center space-y-4">
-          <div className="font-display text-2xl font-semibold">
-            PROTOCOLO <span className="text-gradient-gold">OCI</span>
+          <div className="inline-flex bg-background rounded-2xl p-4 shadow-soft">
+            <img src={logoOci} alt="Protocolo OCI" width={180} height={72} loading="lazy" className="h-16 w-auto" />
           </div>
           <div className="flex justify-center gap-6 text-sm text-primary-foreground/70 flex-wrap">
             <a href="#" className="hover:text-gold transition-colors">Política de Privacidade</a>
