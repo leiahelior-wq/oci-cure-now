@@ -5,9 +5,11 @@ import { Sparkles, Heart, Coins, Crown, Flame, Check, Star, Quote, Clock, Shield
 import ebookHero from "@/assets/ebook-hero.png";
 import logoOci from "@/assets/logo-oci.png";
 
+const CHECKOUT_URL = "https://pay.kiwify.com.br/BucM9vK";
+
 const Index = () => {
   const scrollToCheckout = () => {
-    document.getElementById("oferta")?.scrollIntoView({ behavior: "smooth" });
+    window.open(CHECKOUT_URL, "_blank", "noopener,noreferrer");
   };
 
   return (
