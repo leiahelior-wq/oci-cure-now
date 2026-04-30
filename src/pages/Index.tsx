@@ -291,7 +291,7 @@ const Index = () => {
               <p className="text-muted-foreground">à vista · ou 5x de R$ 10,40</p>
             </div>
 
-            <Button variant="cta" size="hero" className="w-full">
+            <Button variant="cta" size="hero" className="w-full" onClick={scrollToCheckout}>
               Sim! Eu Quero Minha Liberdade <ArrowRight className="!size-6" />
             </Button>
 
