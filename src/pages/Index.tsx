@@ -364,8 +364,8 @@ const Index = () => {
       {/* ============ FOOTER ============ */}
       <footer className="bg-primary text-primary-foreground py-12">
         <div className="container mx-auto px-6 text-center space-y-4">
-          <div className="font-display text-2xl font-semibold">
-            PROTOCOLO <span className="text-gradient-gold">OCI</span>
+          <div className="inline-flex bg-background rounded-2xl p-4 shadow-soft">
+            <img src={logoOci} alt="Protocolo OCI" width={180} height={72} loading="lazy" className="h-16 w-auto" />
           </div>
           <div className="flex justify-center gap-6 text-sm text-primary-foreground/70 flex-wrap">
             <a href="#" className="hover:text-gold transition-colors">Política de Privacidade</a>
