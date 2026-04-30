@@ -265,7 +265,7 @@ const Index = () => {
 
             <ul className="space-y-3 mb-8 max-w-md mx-auto">
               {[
-                "8 passos práticos e acionáveis",
+                "7 passos práticos e acionáveis",
                 "Mapa completo das 5 Feridas Emocionais",
                 "Acesso imediato após a compra",
                 "Compatível com celular, tablet e computador",
