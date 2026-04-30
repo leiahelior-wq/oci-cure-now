@@ -179,8 +179,7 @@ const Index = () => {
               { n: "04", t: "Sua Sombra Revelada", d: "Encare aquilo que você se recusou a ver." },
               { n: "05", t: "Seja a Mãe e o Pai que Você Precisou", d: "Cure sua criança interior de uma vez por todas." },
               { n: "06", t: "O Perdão que Liberta", d: "Solte as amarras do passado e respire de novo." },
-              { n: "07", t: "Acreditar em Algo Maior", d: "Conecte-se com sua força superior." },
-              { n: "08", t: "Viva Obcecada Pela Sua Cura", d: "Transforme tudo que você aprendeu em sua nova realidade." },
+              { n: "07", t: "Acreditar em Algo Maior", d: "Conecte-se com sua força superior e viva obcecada pela sua cura." },
             ].map((p) => (
               <div key={p.n} className="group flex items-center gap-6 p-6 rounded-2xl bg-primary-foreground/5 backdrop-blur-sm border border-primary-foreground/10 hover:bg-primary-foreground/10 hover:border-gold/40 transition-all duration-300">
                 <div className="font-display text-5xl md:text-6xl font-semibold text-gradient-gold w-20 flex-shrink-0">{p.n}</div>
